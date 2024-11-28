@@ -6,6 +6,7 @@
 
 body{
     font-family: "Fredoka", sans-serif;
+    background-color: #f9f9f9;
 }
 
 h1{
@@ -14,8 +15,8 @@ h1{
     text-shadow: 5px 5px lightgray;
 }
 
-.card{
+.card:hover{
     margin-bottom: 5px
     box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1),
-    -10px -10px 10px #f9f9f9;
+    -10px -10px 10px white;
 }
