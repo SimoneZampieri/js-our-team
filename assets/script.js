@@ -36,3 +36,20 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+//devo creare una funzione che mi permetta di inserire una card per ogni oggetto dell'array, all'interno della quale devo destrutturare l'oggetto per poterne ricavare i singoli parametri
+
+const nuovaCardTeam = (membro) => {
+
+  const {name, role, email, image} = membro;
+
+  return  <div class="card" style="width: 18rem;">
+            <img src=`${image}` class="card-img-top" alt=`${name}`>
+            <div class="card-body">
+              <h5 class="card-title">`${name}`</h5>
+              <p class="card-text">`${role}`</p>
+              <p class="card-text">`${email}`</p>
+            </div>
+          </div>
+}
+
