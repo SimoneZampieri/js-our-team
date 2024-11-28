@@ -43,7 +43,7 @@ const nuovaCardTeam = (membro) => {
 
   const {name, role, email, img} = membro;
   
-  return  `<div class="card" style="width: 18rem; margin-bottom:  10px;">
+  return  `<div class="card" style="width: 18rem; margin-bottom:  20px; box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2), -10px -10px 10px white;">
               <img src="./assets/${img}" class="card-img-top" alt="${name}">
                 <div class="card-body">
                     <h5 class="card-title">${name}</h5>
