@@ -30,7 +30,7 @@ const teamMembers = [
     img: "img/male3.png"
   },
   {
-    name: "Daniela Amet",
+    name: "Daniela Pera",
     role: "Analyst",
     email: "danielaamet@team.com",
     img: "img/female3.png"
@@ -41,17 +41,17 @@ const teamMembers = [
 
 const nuovaCardTeam = (membro) => {
 
-  const {name, role, email, image} = membro;
+  const {name, role, email, img} = membro;
   
-    
   return  `<div class="card" style="width: 18rem;">
-              <img src=${image} class="card-img-top" alt="...">
+              <img src="./assets/${img}" class="card-img-top" alt="${name}">
                 <div class="card-body">
                     <h5 class="card-title">${name}</h5>
                     <p class="card-text">${role}</p>
                     <p class="card-text">${email}</p>
                 </div>
-            </div>`
+            </div>
+            `
 }
 
 //ora posso inserire le cards all'interno dell'html, ciclando l'array il quale ad ogni giro invocherà la funzione per creare una nuova card tramite un ciclo for of.`

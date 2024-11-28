@@ -13,3 +13,9 @@ h1{
     color: rgb(95, 95, 214);
     text-shadow: 5px 5px lightgray;
 }
+
+.card{
+    margin-bottom: 5px
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1),
+    -10px -10px 10px #f9f9f9;
+}
