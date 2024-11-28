@@ -1,18 +1,18 @@
 const teamMembers = [
   {
-    name: "Marco Bianchi",
+    name: "Gustavo LaPizza",
     role: "Designer",
     email: "marcobianchi@team.com",
     img: "img/male1.png"
   },
   {
-    name: "Laura Rossi",
+    name: "Petra Sasso",
     role: "Front-end Developer",
     email: "laurarossi@team.com",
     img: "img/female1.png"
   },
   {
-    name: "Giorgio Verdi",
+    name: "Franco Forte",
     role: "Back-end Developer",
     email: "giorgioverdi@team.com",
     img: "img/male2.png"
@@ -24,7 +24,7 @@ const teamMembers = [
     img: "img/female2.png"
   },
   {
-    name: "Roberto Lorem",
+    name: "Guido LaBarca",
     role: "SEO Specialist",
     email: "robertolorem@team.com",
     img: "img/male3.png"
